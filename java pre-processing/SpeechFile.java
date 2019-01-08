@@ -161,7 +161,10 @@ public class SpeechFile {
             else if (clip.getEmotion() == "HOT-ANGER") label = 2;
             else if (clip.getEmotion() == "COLD-ANGER") label = 2;
             else if (clip.getEmotion() == "SADNESS") label = 3;
+            else if (clip.getEmotion() == "SHAME") label = 3;
+            else if (clip.getEmotion() == "DESPAIR") label = 3;
             else if (clip.getEmotion() == "ELATION") label = 4;
+            else if (clip.getEmotion() == "INTEREST") label = 4;
             else if (clip.getEmotion() == "HAPPY") label = 4;
             else return;
          }
